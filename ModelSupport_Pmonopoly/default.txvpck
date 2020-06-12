@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="pv5h47jbj6by3v40f_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="design:view:::imnic835a9b750pym_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="340,180,100,134" />
+      <property name="hideClass" value="False" />
+      <property name="hideModule" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uPlayers.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uPlayers.TPlayer" />
+    </reference>
+    <reference referencedUin="design:view:::h6q64mwdj9b104dqh_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="100,380,100,151" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uTile.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uTile.TTile" />
+    </reference>
+    <reference referencedUin="design:view:::6g4ns0pjp9bq7f0sm_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="120,180,100,134" />
+      <property name="hideModule" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uBoard.TBoard" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uBoard.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::df2qtq6w10bhxklum_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="251,1,100,134" />
+      <property name="hideModule" value="True" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uGameForm.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uGameForm.TGameForm" />
+    </reference>
+    <reference referencedUin="design:view:::ajlwfeg280b4faxsj_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="400,560,100,117" />
+      <property name="hideModule" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:Pmonopoly.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::qd2cvop8d0b20jrrh_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="580,200,100,134" />
+      <property name="hideModule" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uTrade.TTrade" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uTrade.@unitclass" />
+    </reference>
+    <reference referencedUin="design:view:::dqs0brd45cj5te93i_v">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,105,151" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uStack.@unitclass" />
+      <reference referencedUin="delphi:e_class:src:Pmonopoly:uStack.TNumberStack" />
+    </reference>
+  </view>
+</nodeSet>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="dqs0brd45cj5te93i_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Pmonopoly:uStack.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Pmonopoly:uStack.TNumberStack">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,185,161" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uStack.TNumberStack.numbers" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uStack.TNumberStack.Swap(System.Integer,System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uStack.TNumberStack.Create()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uStack.TNumberStack.Shuffle()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uStack.TNumberStack.Pop()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uStack.TNumberStack.PushToBottom(System.Integer)" />
+    </reference>
+  </view>
+</nodeSet>

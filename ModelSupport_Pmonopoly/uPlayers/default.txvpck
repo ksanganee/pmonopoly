@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="imnic835a9b750pym_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Pmonopoly:uPlayers.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Pmonopoly:uPlayers.TPlayer">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,175,763" />
+      <property name="hideAttribute" value="False" />
+      <property name="hideOperation" value="False" />
+      <property name="hideProperty" value="False" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.FName" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.FPos" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.FBalance" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.FRandomNum" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.FHousenum" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.FHotelnum" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.FDiff" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.FInJail" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.FJailCards" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.FJailTurns" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetName()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.SetName(System.string)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetPos()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.SetPos(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetBalance()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.SetBalance(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetRandomNum()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetDiff()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.SetDiff(System.Char)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetInJail()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.SetInjail(System.Boolean)" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.alive" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.human" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.computer" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.Roll1" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uPlayers.TPlayer.Roll2" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.create(System.string,System.Boolean,System.Char)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetPropertiesTax()" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uPlayers.TPlayer.name" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uPlayers.TPlayer.pos" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uPlayers.TPlayer.balance" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uPlayers.TPlayer.randomupper" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetBalanceLine()" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uPlayers.TPlayer.diff" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uPlayers.TPlayer.InJail" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetJailCards()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.IncJailCards()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.IncJailTurns()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetJailTurns()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.ResetJailTurns()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.IncreaseBalance(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.DecreaseBalance(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetLeftPos()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetTopPos()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetColour(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uPlayers.TPlayer.GetMortgageColour(System.Integer)" />
+    </reference>
+  </view>
+</nodeSet>

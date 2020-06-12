@@ -1,0 +1,8 @@
+
+Difficulty Help:
+
+e=Easy computer difficulty
+m=medium computer difficulty
+h=hard computer difficulty
+
+Enter the letter in the player difficulty column for computer controlled players

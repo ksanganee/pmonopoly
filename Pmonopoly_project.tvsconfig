@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<TgConfig Version="3" SubLevelDisabled="False">
+  <Option Name="namespaceFolder.uPlayers" Type="System.String" Value="uPlayers" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uTile" Type="System.String" Value="uTile" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.Pmonopoly" Type="System.String" Value="Pmonopoly" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uTrade" Type="System.String" Value="uTrade" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uBoard" Type="System.String" Value="uBoard" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uGameForm" Type="System.String" Value="uGameForm" Category="General" IsBrowsable="False" />
+  <Option Name="namespaceFolder.uStack" Type="System.String" Value="uStack" Category="General" IsBrowsable="False" />
+</TgConfig>

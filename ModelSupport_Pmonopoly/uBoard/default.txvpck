@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="6g4ns0pjp9bq7f0sm_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Pmonopoly:uBoard.TBoard">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,162,163" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uBoard.TBoard.FFreeParkingBal" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uBoard.TBoard.GetFreeParkingBal()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uBoard.TBoard.SetFreeParkingBal(System.Integer)" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uBoard.TBoard.tiles" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uBoard.TBoard.Create()" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uBoard.TBoard.FreeParkingBal" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Pmonopoly:uBoard.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

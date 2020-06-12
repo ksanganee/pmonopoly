@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="qd2cvop8d0b20jrrh_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Pmonopoly:uTrade.TTrade">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,195,173" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTrade.TTrade.PlayerTo" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTrade.TTrade.PlayerFrom" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTrade.TTrade.PropertiesTo" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTrade.TTrade.PropertiesFrom" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTrade.TTrade.MoneyTo" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTrade.TTrade.MoneyFrom" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Pmonopoly:uTrade.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+  </view>
+</nodeSet>

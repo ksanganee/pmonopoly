@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="h6q64mwdj9b104dqh_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Pmonopoly:uTile.@unitclass">
+      <property name="$shortcutReference" value="true" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Pmonopoly:uTile.TTile">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,194,643" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FID" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FCost" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FName" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FRentPrices" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FIsProperty" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FSpecialCase" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FOwned" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FMortgaged" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FMortgagePrice" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FBuildingPrice" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FOwnedBy" />
+      <reference referencedUin="delphi:e_field:src:Pmonopoly:uTile.TTile.FProperties" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.GetID()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.GetName()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.GetCost()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.IsSpecialCase()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.GetMortgagePrice()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.GetBuildingPrice()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.GetOwned()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.SetOwned(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.GetOwnedBy()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.SetOwnedBy(System.Integer)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.IsMortgaged()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.SetMortgaged(System.Boolean)" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.Create(System.string[])" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uTile.TTile.ID" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uTile.TTile.Name" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uTile.TTile.cost" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.IsProperty()" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uTile.TTile.SpecialCase" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uTile.TTile.MortgagePrice" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uTile.TTile.BuildingPrice" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uTile.TTile.owned" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uTile.TTile.OwnedBy" />
+      <reference referencedUin="delphi:e_property:src:Pmonopoly:uTile.TTile.Mortgaged" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.IncProperties()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.GetProperties()" />
+      <reference referencedUin="delphi:e_method:src:Pmonopoly:uTile.TTile.GetRent()" />
+    </reference>
+  </view>
+</nodeSet>
